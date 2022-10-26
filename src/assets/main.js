@@ -1,4 +1,7 @@
 // vamos a usar API de https://rapidapi.com/ de youtube
+// ojo al final se instala el siguiente paquete npm install gh-pages --save-dev
+// luego en el packaje.json se cambia la linea "test": "echo \"Error: no test specified\" && exit 1" por la siguiente
+// "gh-pages": "gh-pages -d src "
 
 const API =
   "https://youtube-v3-alternative.p.rapidapi.com/channel?id=UCM3fhtajhwVWFw2wqJkVA-Q&sort_by=newest";
