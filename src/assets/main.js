@@ -2,6 +2,7 @@
 // ojo al final se instala el siguiente paquete npm install gh-pages --save-dev
 // luego en el packaje.json se cambia la linea "test": "echo \"Error: no test specified\" && exit 1" por la siguiente
 // "gh-pages": "gh-pages -d src "
+// luego en la terminal escribimos npm run deploy esto lo que ejecuta la subida a una rama que cumple con el standar de github page para poderla mostrar como una pagina web
 
 const API =
   "https://youtube-v3-alternative.p.rapidapi.com/channel?id=UCM3fhtajhwVWFw2wqJkVA-Q&sort_by=newest";
